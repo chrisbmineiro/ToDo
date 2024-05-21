@@ -1,0 +1,13 @@
+.Button {
+    background: var(--azul);
+    padding: 0.25rem 0.75rem;
+    color: var(--cinza);
+    border: 2px inset var(--preto);
+}
+
+.Button[type='primary'] {
+    background: var(--azul) ;
+}
+.Button[type='secundary'] {
+    background: var(--verde);
+}

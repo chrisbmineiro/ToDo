@@ -1,3 +1,7 @@
 export * from './Header'
 export * from './Content'
 export * from './Footer'
+export * from './FormTasks'
+export * from './TextContent'
+export * from './Button'
+export * from './TasksList'

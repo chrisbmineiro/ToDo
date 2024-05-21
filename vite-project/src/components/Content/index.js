@@ -1,1 +1,1 @@
-export * from './Conteudo'
+export * from './Content'

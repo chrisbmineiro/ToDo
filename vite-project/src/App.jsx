@@ -1,14 +1,14 @@
 import './App.css'
-import { Header, Conteudo, Footer } from './components'
+import { Header, Content, Footer } from './components'
 import { Inicial } from './pages'
 
 function App(){
   return (
     <>
       <Header />
-      <Conteudo>
-      <Inicial /> 
-      </Conteudo>
+      <Content>
+        <Inicial /> 
+      </Content>
       <Footer criador='Christopher' />
     </>
     )
