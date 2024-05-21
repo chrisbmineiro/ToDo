@@ -1,0 +1,8 @@
+.Header {
+    background: var(--preto);
+    color: var(--cinza);
+}
+
+.Header span {
+    color: var(--rosa);
+}
