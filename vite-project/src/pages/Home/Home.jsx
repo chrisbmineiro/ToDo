@@ -1,13 +1,13 @@
 import { FormTasks, TasksList } from "../../components"
-import style from './Inicial.module.css'
+import style from './Home.module.css'
 
-function Inicial() {
+function Home() {
     return (
-        <div className={style.Inicial}>
+        <div className={style.Home}>
             <FormTasks />
             <TasksList />
         </div>
     )
 }
 
-export { Inicial }
+export { Home }

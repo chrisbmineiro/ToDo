@@ -1,16 +1,12 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
-import { Header, Content, Footer } from './components'
-import { Inicial } from './pages'
+import { Router } from './Router'
 
 function App(){
   return (
-    <>
-      <Header />
-      <Content>
-        <Inicial /> 
-      </Content>
-      <Footer criador='Christopher' />
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
     )
 }
 

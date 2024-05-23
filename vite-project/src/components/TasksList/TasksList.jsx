@@ -2,11 +2,14 @@ import { TasksListItem } from './index'
 import style from './TasksList.module.css'
 
 function TasksList() {
+    const tarefas = [
+        {id: 1, name: 'hello, world'},
+        {id: 2, name: 'item 02'},
+        {id: 3, name: 'item 03'},
+    ]
     return (
         <ul className={style.TasksList}>
-            <TasksListItem tarefa = 'Terminar o curso do TIC de React' />
-            <TasksListItem tarefa = 'item 2' />
-            <TasksListItem tarefa = 'item 3' />
+            {tarefas.map(item => <TasksListItem key={item.id} name={item.name} />)}
         </ul>
     )
 }
